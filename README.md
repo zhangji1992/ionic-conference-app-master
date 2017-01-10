@@ -1,6 +1,6 @@
 # Ionic 2 UI 示例
 
-一个使用TypeScriptc的Ionic2UI示例程序。
+一个使用 TypeScript 的 Ionic2 演示程序。
 
 ## 导航
  - [开始](#开始)
