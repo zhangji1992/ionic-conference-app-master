@@ -19,50 +19,47 @@
 
 ## 使用示例
 
-* 表单 - [ [示例](https://github.com/zhangji1992/ionic-conference-app-master/tree/master/src/pages/speaker-list.html) | [源码](https://github.com/zhangji1992/ionic-conference-app-master/tree/master/src/pages/speaker-list.ts) ]
-* 提示 - [ [源码](https://github.com/zhangji1992/ionic-conference-app-master/tree/master/src/pages/schedule/schedule.ts) ]
-* 卡片 - [ [示例](https://github.com/zhangji1992/ionic-conference-app-master/tree/master/src/pages/speaker-list.html) ]
-* 日期时间 - [ [示例](https://github.com/zhangji1992/ionic-conference-app-master/tree/master/src/pages/about/about.html) ]
-* 表格 - [ [示例](https://github.com/zhangji1992/ionic-conference-app-master/tree/master/src/pages/login/login.html) ]
-* 输入 - [ [示例](https://github.com/zhangji1992/ionic-conference-app-master/tree/master/src/pages/login/login.html) ]
-* 条目 (划动框) - [ [示例](https://github.com/zhangji1992/ionic-conference-app-master/tree/master/src/pages/schedule/schedule.html) | [源码](https://github.com/zhangji1992/ionic-conference-app-master/tree/master/src/pages/schedule/schedule.ts) ]
-* 目录 - [ [示例](https://github.com/zhangji1992/ionic-conference-app-master/tree/master/src/app/app.template.html) |
-[源码](https://github.com/zhangji1992/ionic-conference-app-master/tree/master/src/app/app.component.ts) ]
-* 模态框 - [ [示例](https://github.com/zhangji1992/ionic-conference-app-master/tree/master/src/pages/schedule-filter/schedule-filter.html) | [源码](https://github.com/zhangji1992/ionic-conference-app-master/tree/master/src/pages/schedule-filter/schedule.ts) ]
-* 搜索框 - [ [示例](https://github.com/zhangji1992/ionic-conference-app-master/tree/master/src/pages/schedule/schedule.html) | [源码](https://github.com/zhangji1992/ionic-conference-app-master/tree/master/src/pages/schedule/schedule.ts) ]
-* 切换视图 - [ [示例](https://github.com/zhangji1992/ionic-conference-app-master/tree/master/src/pages/schedule/schedule.html) | [源码](https://github.com/zhangji1992/ionic-conference-app-master/tree/master/src/pages/schedule/schedule.ts) ]
-* 划动框 - [ [示例](https://github.com/zhangji1992/ionic-conference-app-master/tree/master/src/pages/tutorial/tutorial.html) |
-* 标题栏 - [ [示例](https://github.com/zhangji1992/ionic-conference-app-master/tree/master/src/pages/schedule/schedule.html) ]
-* 底部选项卡 - [ [示例](https://github.com/zhangji1992/ionic-conference-app-master/tree/master/src/pages/tabs/tabs.html) | [源码](https://github.com/zhangji1992/ionic-conference-app-master/tree/master/src/pages/tabs/tabs.ts) ]
-* 切换控制 - [ [示例](https://github.com/zhangji1992/ionic-conference-app-master/tree/master/src/pages/schedule-filter/schedule-filter.html) |
-[源码](https://github.com/zhangji1992/ionic-conference-app-master/tree/master/src/pages/tutorial/tutorial.ts) ]
-* 利用Augular控制JSON - [ [源码](https://github.com/zhangji1992/ionic-conference-app-master/tree/master/src/providers/conference-data.ts) | [用法](https://github.com/zhangji1992/ionic-conference-app-master/tree/master/src/pages/schedule/schedule.ts) ]
+* 表单 - [ [示例](https://github.com/zhangji1992/ionic2-conference-app-demo/tree/master/src/pages/speaker-list.html) | [源码](https://github.com/zhangji1992/ionic2-conference-app-demo/tree/master/src/pages/speaker-list.ts) ]
+* 提示 - [ [源码](https://github.com/zhangji1992/ionic2-conference-app-demo/tree/master/src/pages/schedule/schedule.ts) ]
+* 卡片 - [ [示例](https://github.com/zhangji1992/ionic2-conference-app-demo/tree/master/src/pages/speaker-list.html) ]
+* 日期时间 - [ [示例](https://github.com/zhangji1992/ionic2-conference-app-demo/tree/master/src/pages/about/about.html) ]
+* 表格 - [ [示例](https://github.com/zhangji1992/ionic2-conference-app-demo/tree/master/src/pages/login/login.html) ]
+* 输入 - [ [示例](https://github.com/zhangji1992/ionic2-conference-app-demo/tree/master/src/pages/login/login.html) ]
+* 条目 (划动框) - [ [示例](https://github.com/zhangji1992/ionic2-conference-app-demo/tree/master/src/pages/schedule/schedule.html) | [源码](https://github.com/zhangji1992/ionic2-conference-app-demo/tree/master/src/pages/schedule/schedule.ts) ]
+* 目录 - [ [示例](https://github.com/zhangji1992/ionic2-conference-app-demo/tree/master/src/app/app.template.html) |
+[源码](https://github.com/zhangji1992/ionic2-conference-app-demo/tree/master/src/app/app.component.ts) ]
+* 模态框 - [ [示例](https://github.com/zhangji1992/ionic2-conference-app-demo/tree/master/src/pages/schedule-filter/schedule-filter.html) | [源码](https://github.com/zhangji1992/ionic2-conference-app-demo/tree/master/src/pages/schedule-filter/schedule.ts) ]
+* 搜索框 - [ [示例](https://github.com/zhangji1992/ionic2-conference-app-demo/tree/master/src/pages/schedule/schedule.html) | [源码](https://github.com/zhangji1992/ionic2-conference-app-demo/tree/master/src/pages/schedule/schedule.ts) ]
+* 切换视图 - [ [示例](https://github.com/zhangji1992/ionic2-conference-app-demo/tree/master/src/pages/schedule/schedule.html) | [源码](https://github.com/zhangji1992/ionic2-conference-app-demo/tree/master/src/pages/schedule/schedule.ts) ]
+* 划动框 - [ [示例](https://github.com/zhangji1992/ionic2-conference-app-demo/tree/master/src/pages/tutorial/tutorial.html) |
+* 标题栏 - [ [示例](https://github.com/zhangji1992/ionic2-conference-app-demo/tree/master/src/pages/schedule/schedule.html) ]
+* 底部选项卡 - [ [示例](https://github.com/zhangji1992/ionic2-conference-app-demo/tree/master/src/pages/tabs/tabs.html) | [源码](https://github.com/zhangji1992/ionic2-conference-app-demo/tree/master/src/pages/tabs/tabs.ts) ]
+* 切换控制 - [ [示例](https://github.com/zhangji1992/ionic2-conference-app-demo/tree/master/src/pages/schedule-filter/schedule-filter.html) |
+[源码](https://github.com/zhangji1992/ionic2-conference-app-demo/tree/master/src/pages/tutorial/tutorial.ts) ]
+* 利用Augular控制JSON - [ [源码](https://github.com/zhangji1992/ionic2-conference-app-demo/tree/master/src/providers/conference-data.ts) | [用法](https://github.com/zhangji1992/ionic2-conference-app-demo/tree/master/src/pages/schedule/schedule.ts) ]
 
 
 ## App预览
 
 所有的App页面预览可以通过运行`ionic serve --lab`在浏览器上看到。
 
-- [模块页面](https://github.com/zhangji1992/ionic-conference-app-master/tree/master/src/pages/schedule/schedule.html)
+- [模块页面](https://github.com/zhangji1992/ionic2-conference-app-demo/tree/master/src/pages/schedule/schedule.html)
 
   <img src="resources/screenshots/SchedulePage.png" alt="Schedule">
 
 
-- [关于页面](https://github.com/zhangji1992/ionic-conference-app-master/tree/master/src/pages/about/about.html)
+- [关于页面](https://github.com/zhangji1992/ionic2-conference-app-demo/tree/master/src/pages/about/about.html)
 
   <img src="resources/screenshots/AboutPage.png" alt="Schedule">
 
 
-- 更多页面，请移步 [页面目录一览](https://github.com/zhangji1992/ionic-conference-app-master/tree/master/resources/screenshots)!
+- 更多页面，请移步 [页面目录一览](https://github.com/zhangji1992/ionic2-conference-app-demo/tree/master/resources/screenshots)!
 
 
 ## App架构
 
 ```
-ionic-conference-app/
-├-- .github/                            * GitHub 文件
-│   ├── CONTRIBUTING.md                 * 贡献者们
-│   └── ISSUE_TEMPLATE.md               * 提交问题并解决的样例
+ionic2-conference-app-demo/
 |
 |-- resources/
 |
