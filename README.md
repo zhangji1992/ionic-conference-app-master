@@ -1,82 +1,68 @@
-# Ionic 2 Conference Application
+# Ionic 2 UI 示例
 
-This is purely a demo of Ionic 2 with TypeScript. It is still in development.
+一个使用TypeScriptc的Ionic2UI示例程序。
 
-
-## Important!
-**There is not an actual Ionic Conference at this time.** This project is just to show off Ionic 2 components in a real-world application. Please go through the steps in [CONTRIBUTING.md](https://github.com/driftyco/ionic-conference-app/blob/master/.github/CONTRIBUTING.md) before submitting an issue.
-
-
-## Table of Contents
- - [Getting Started](#getting-started)
- - [Contributing](#contributing)
- - [Use Cases](#use-cases)
- - [App Preview](#app-preview)
- - [File Structure of App](#file-structure-of-app)
+## 导航
+ - [开始](#开始)
+ - [使用示例](#使用示例)
+ - [App预览](#App预览)
+ - [App架构](#App架构)
 
 
-## Getting Started
+## 开始
 
-* Clone this repository.
-* Want to use TypeScript? Both the `master` branch and the `typescript` branch now use TypeScript.
-* Run `npm install` from the project root.
-* Install the ionic CLI (`npm install -g ionic`)
-* Run `ionic serve` in a terminal from the project root.
-* Profit
+* 使用 `git clone` 命令。
+* 在程序根目录依次运行 1.`npm install` 2. `npm install -g ionic`（ionic是项目的依赖包）。
+* 运行 `ionic serve` 看看发生了啥
 
-**Note:** Is your build slow? Update `npm` to 3.x: `npm install -g npm`.
+**贴士:**  `ionic serve -d -b`可以关闭实时编译，运行更快，而且不会自动打开浏览器哦。
 
+## 使用示例
 
-## Contributing
-See [CONTRIBUTING.md](https://github.com/driftyco/ionic-conference-app/blob/master/.github/CONTRIBUTING.md) :tada::+1:
-
-
-## Use Cases
-
-* Action Sheet - [ [template](https://github.com/driftyco/ionic-conference-app/blob/master/src/pages/speaker-list/speaker-list.html) | [code](https://github.com/driftyco/ionic-conference-app/blob/master/src/pages/speaker-list/speaker-list.ts) ]
-* Alert - [ [code](https://github.com/driftyco/ionic-conference-app/blob/master/src/pages/schedule/schedule.ts) ]
-* Cards - [ [template](https://github.com/driftyco/ionic-conference-app/blob/master/src/pages/speaker-list/speaker-list.html) ]
-* Datetime - [ [template](https://github.com/driftyco/ionic-conference-app/blob/master/src/pages/about/about.html) ]
-* Grid - [ [template](https://github.com/driftyco/ionic-conference-app/blob/master/src/pages/login/login.html) ]
-* Inputs - [ [template](https://github.com/driftyco/ionic-conference-app/blob/master/src/pages/login/login.html) ]
-* Items (Sliding) - [ [template](https://github.com/driftyco/ionic-conference-app/blob/master/src/pages/schedule/schedule.html) | [code](https://github.com/driftyco/ionic-conference-app/blob/master/src/pages/schedule/schedule.ts) ]
-* Menu - [ [template](https://github.com/driftyco/ionic-conference-app/blob/master/src/app/app.template.html) |
-[code](https://github.com/driftyco/ionic-conference-app/blob/master/src/app/app.component.ts) ]
-* Modal - [ [template](https://github.com/driftyco/ionic-conference-app/blob/master/src/pages/schedule-filter/schedule-filter.html) | [code](https://github.com/driftyco/ionic-conference-app/blob/master/src/pages/schedule/schedule.ts) ]
-* Searchbar - [ [template](https://github.com/driftyco/ionic-conference-app/blob/master/src/pages/schedule/schedule.html) | [code](https://github.com/driftyco/ionic-conference-app/blob/master/src/pages/schedule/schedule.ts) ]
-* Segment - [ [template](https://github.com/driftyco/ionic-conference-app/blob/master/src/pages/schedule/schedule.html) | [code](https://github.com/driftyco/ionic-conference-app/blob/master/src/pages/schedule/schedule.ts) ]
-* Slides - [ [template](https://github.com/driftyco/ionic-conference-app/blob/master/src/pages/tutorial/tutorial.html) |
-* Sticky headers - [ [template](https://github.com/driftyco/ionic-conference-app/blob/master/src/pages/schedule/schedule.html) ]
-* Tabs - [ [template](https://github.com/driftyco/ionic-conference-app/blob/master/src/pages/tabs/tabs.html) | [code](https://github.com/driftyco/ionic-conference-app/blob/master/src/pages/tabs/tabs.ts) ]
-* Toggle - [ [template](https://github.com/driftyco/ionic-conference-app/blob/master/src/pages/schedule-filter/schedule-filter.html) ]
-[code](https://github.com/driftyco/ionic-conference-app/blob/master/src/pages/tutorial/tutorial.ts) ]
-* Using Angular HTTP for JSON - [ [code](https://github.com/driftyco/ionic-conference-app/blob/master/src/providers/conference-data.ts) | [usage](https://github.com/driftyco/ionic-conference-app/blob/master/src/pages/schedule/schedule.ts) ]
+* 表单 - [ [示例](https://github.com/zhangji1992/ionic-conference-app-master/src/pages/speaker-list/speaker-list.html) | [源码](https://github.com/zhangji1992/ionic-conference-app-master/src/pages/speaker-list/speaker-list.ts) ]
+* 提示 - [ [源码](https://github.com/zhangji1992/ionic-conference-app-master/src/pages/schedule/schedule.ts) ]
+* 卡片 - [ [示例](https://github.com/zhangji1992/ionic-conference-app-master/src/pages/speaker-list/speaker-list.html) ]
+* 日期时间 - [ [示例](https://github.com/zhangji1992/ionic-conference-app-master/src/pages/about/about.html) ]
+* 表格 - [ [示例](https://github.com/zhangji1992/ionic-conference-app-master/src/pages/login/login.html) ]
+* 输入 - [ [示例](https://github.com/zhangji1992/ionic-conference-app-master/src/pages/login/login.html) ]
+* 条目 (划动框) - [ [示例](https://github.com/zhangji1992/ionic-conference-app-master/src/pages/schedule/schedule.html) | [源码](https://github.com/zhangji1992/ionic-conference-app-master/src/pages/schedule/schedule.ts) ]
+* 目录 - [ [示例](https://github.com/zhangji1992/ionic-conference-app-master/src/app/app.template.html) |
+[源码](https://github.com/zhangji1992/ionic-conference-app-master/src/app/app.component.ts) ]
+* 模态框 - [ [示例](https://github.com/zhangji1992/ionic-conference-app-master/src/pages/schedule-filter/schedule-filter.html) | [源码](https://github.com/zhangji1992/ionic-conference-app-master/src/pages/schedule/schedule.ts) ]
+* 搜索框 - [ [示例](https://github.com/zhangji1992/ionic-conference-app-master/src/pages/schedule/schedule.html) | [源码](https://github.com/zhangji1992/ionic-conference-app-master/src/pages/schedule/schedule.ts) ]
+* 切换视图 - [ [示例](https://github.com/zhangji1992/ionic-conference-app-master/src/pages/schedule/schedule.html) | [源码](https://github.com/zhangji1992/ionic-conference-app-master/src/pages/schedule/schedule.ts) ]
+* 划动框 - [ [示例](https://github.com/zhangji1992/ionic-conference-app-master/src/pages/tutorial/tutorial.html) |
+* 标题栏 - [ [示例](https://github.com/zhangji1992/ionic-conference-app-master/src/pages/schedule/schedule.html) ]
+* 底部选项卡 - [ [示例](https://github.com/zhangji1992/ionic-conference-app-master/src/pages/tabs/tabs.html) | [源码](https://github.com/zhangji1992/ionic-conference-app-master/src/pages/tabs/tabs.ts) ]
+* 切换控制 - [ [示例](https://github.com/zhangji1992/ionic-conference-app-master/src/pages/schedule-filter/schedule-filter.html) |
+[源码](https://github.com/zhangji1992/ionic-conference-app-master/src/pages/tutorial/tutorial.ts) ]
+* 利用Augular控制JSON - [ [源码](https://github.com/zhangji1992/ionic-conference-app-master/src/providers/conference-data.ts) | [用法](https://github.com/zhangji1992/ionic-conference-app-master/src/pages/schedule/schedule.ts) ]
 
 
-## App Preview
+## App预览
 
-All app preview screenshots were taken by running `ionic serve --lab` on a retina display.
+所有的App页面预览可以通过运行`ionic serve --lab`在浏览器上看到。
 
-- [Schedule Page](https://github.com/driftyco/ionic-conference-app/blob/master/src/pages/schedule/schedule.html)
+- [模块页面](https://github.com/zhangji1992/ionic-conference-app-master/src/pages/schedule/schedule.html)
 
   <img src="resources/screenshots/SchedulePage.png" alt="Schedule">
 
 
-- [About Page](https://github.com/driftyco/ionic-conference-app/blob/master/src/pages/about/about.html)
+- [关于页面](https://github.com/zhangji1992/ionic-conference-app-master/src/pages/about/about.html)
 
   <img src="resources/screenshots/AboutPage.png" alt="Schedule">
 
 
-- To see more images of the app, check out the [screenshots directory](https://github.com/driftyco/ionic-conference-app/tree/master/resources/screenshots)!
+- 更多页面，请移步 [预览页面目录](https://github.com/zhangji1992/ionic-conference-app-master/resources/screenshots)!
 
 
-## File Structure of App
+## App架构
 
 ```
 ionic-conference-app/
-├-- .github/                            * GitHub files
-│   ├── CONTRIBUTING.md                 * Documentation on contributing to this repo
-│   └── ISSUE_TEMPLATE.md               * Template used to populate issues in this repo
+├-- .github/                            * GitHub 文件
+│   ├── CONTRIBUTING.md                 * 贡献者们
+│   └── ISSUE_TEMPLATE.md               * 提交问题并解决的样例
 |
 |-- resources/
 |
@@ -101,69 +87,69 @@ ionic-conference-app/
 |    |    |
 |    |    ├── img/
 |    |
-|    |-- pages/                          * Contains all of our pages
-│    │    ├── about/                     * About tab page
-│    │    │    ├── about.html            * AboutPage template
-│    │    │    └── about.ts              * AboutPage code
-│    │    │    └── about.scss            * AboutPage stylesheet
+|    |-- pages/                          * 包含了所有页面
+│    │    ├── about/                     * 关于模块
+│    │    │    ├── about.html            * 页面
+│    │    │    └── about.ts              * 代码
+│    │    │    └── about.scss            * 样式
 │    │    │
-│    │    ├── account/                   * Account page
-│    │    │    ├── account.html          * AccountPage template
-│    │    │    └── account.ts            * AccountPage code
-│    │    │    └── account.scss          * AccountPage stylesheet
+│    │    ├── account/                   * 账户模块
+│    │    │    ├── account.html          * 页面
+│    │    │    └── account.ts            * 代码
+│    │    │    └── account.scss          * 样式
 │    │    │
-│    │    │── login/                     * Login page
-│    │    │    ├── login.html            * LoginPage template
-│    │    │    └── login.ts              * LoginPage code
-│    │    │    └── login.scss            * LoginPage stylesheet
+│    │    │── login/                     * 登录模块
+│    │    │    ├── login.html            * 页面
+│    │    │    └── login.ts              * 代码
+│    │    │    └── login.scss            * 样式
 │    │    │
-│    │    │── map/                       * Map tab page
-│    │    │    ├── map.html              * MapPage template
-│    │    │    └── map.ts                * MapPage code
-│    │    │    └── map.scss              * MapPage stylesheet
+│    │    │── map/                       * 地图模块
+│    │    │    ├── map.html              * 页面
+│    │    │    └── map.ts                * 代码
+│    │    │    └── map.scss              * 样式
 │    │    │
-│    │    │── schedule/                  * Schedule tab page
-│    │    │    ├── schedule.html         * SchedulePage template
-│    │    │    └── schedule.ts           * SchedulePage code
-│    │    │    └── schedule.scss         * SchedulePage stylesheet
+│    │    │── schedule/                  * 计划模块
+│    │    │    ├── schedule.html         * 页面
+│    │    │    └── schedule.ts           * 代码
+│    │    │    └── schedule.scss         * 样式
 │    │    │
-│    │    │── schedule-filter/            * Schedule Filter page
-│    │    │    ├── schedule-filter.html   * ScheduleFilterPage template
-│    │    │    └── schedule-filter.ts     * ScheduleFilterPage code
-│    │    │    └── schedule-filter.scss   * ScheduleFilterPage stylesheet
+│    │    │── schedule-filter/            * 计划过滤器模块
+│    │    │    ├── schedule-filter.html   * 页面
+│    │    │    └── schedule-filter.ts     * 代码
+│    │    │    └── schedule-filter.scss   * 样式
 │    │    │
-│    │    │── session-detail/            * Session Detail page
-│    │    │    ├── session-detail.html   * SessionDetailPage template
-│    │    │    └── session-detail.ts     * SessionDetailPage code
+│    │    │── session-detail/            * 会话详情模块
+│    │    │    ├── session-detail.html   * 页面
+│    │    │    └── session-detail.ts     * 代码
 │    │    │
-│    │    │── signup/                    * Signup page
-│    │    │    ├── signup.html           * SignupPage template
-│    │    │    └── signup.ts             * SignupPage code
+│    │    │── signup/                    * 登出模块
+│    │    │    ├── signup.html           * 页面
+│    │    │    └── signup.ts             * 代码
 │    │    │
-│    │    │── speaker-detail/            * Speaker Detail page
-│    │    │    ├── speaker-detail.html   * SpeakerDetailPage template
-│    │    │    └── speaker-detail.ts     * SpeakerDetailPage code
-│    │    │    └── speaker-detail.scss   * SpeakerDetailPage stylesheet
+│    │    │── speaker-detail/            * 会话人详情模块
+│    │    │    ├── speaker-detail.html   * 页面
+│    │    │    └── speaker-detail.ts     * 代码
+│    │    │    └── speaker-detail.scss   * 样式
 │    │    │
-│    │    │── speaker-list/              * Speakers tab page
-│    │    │    ├── speaker-list.html     * SpeakerListPage template
-│    │    │    └── speaker-list.ts       * SpeakerListPage code
-│    │    │    └── speaker-list.scss     * SpeakerListPage stylesheet
+│    │    │── speaker-list/              * 会话模块
+│    │    │    ├── speaker-list.html     * 页面
+│    │    │    └── speaker-list.ts       * 代码
+│    │    │    └── speaker-list.scss     * 样式
 │    │    │
-│    │    │── tabs/                      * Tabs page
-│    │    │    ├── tabs.html             * TabsPage template
-│    │    │    └── tabs.ts               * TabsPage code
+│    │    │── tabs/                      * 底部导航条模块
+│    │    │    ├── tabs.html             * 页面
+│    │    │    └── tabs.ts               * 代码
 │    │    │
-│    │    └── tutorial/                  * Tutorial Intro page
-│    │         ├── tutorial.html         * TutorialPage template
-│    │         └── tutorial.ts           * TutorialPage code
-│    │         └── tutorial.scss         * TutorialPage stylesheet
+│    │    └── tutorial/                  * 使用帮助模块
+│    │         ├── tutorial.html         * 页面
+│    │         └── tutorial.ts           * 代码
+│    │         └── tutorial.scss         * 样式
 |    |
-│    ├── providers/                      * Contains all Injectables
-│    │     ├── conference-data.ts        * ConferenceData code
-│    │     └── user-data.ts              * UserData code
-│    ├── theme/                          * App theme files
-|    |     ├── variables.scss            * App Shared Sass Variables
+│    ├── providers/                      * 包含了所有依赖注入
+│    │     ├── conference-data.ts        * 会议数据
+│    │     └── user-data.ts              * 用户数据
+│    ├── theme/                          * App 主题
+|    |     ├── variables.scss            * App 全局样式
 |    |
 |    |-- index.html
 |
@@ -184,13 +170,13 @@ ionic-conference-app/
 |    └── build/
 |    └── index.html
 |
-├── .editorconfig                       * Defines coding styles between editors
-├── .gitignore                          * Example git ignore file
-├── LICENSE                             * Apache License
-├── README.md                           * This file
-├── config.xml                          * Cordova configuration file
-├── ionic.config.json                   * Ionic configuration file
-├── package.json                        * Defines our JavaScript dependencies
-├── tsconfig.json                       * Defines the root files and the compiler options
-├── tslint.json                         * Defines the rules for the TypeScript linter
+├── .editorconfig                       * 编辑器配置文件
+├── .gitignore                          * git 忽略配置文件
+├── LICENSE                             * 使用证书
+├── README.md                           * 本文件
+├── config.xml                          * Cordova 配置文件
+├── ionic.config.json                   * Ionic 配置文件
+├── package.json                        * 定义 JavaScript 环境
+├── tsconfig.json                       * 定义根文件和编译配置文件
+├── tslint.json                         * 定义TypeScript linter 规则
 ```
